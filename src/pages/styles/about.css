@@ -26,7 +26,8 @@
 }
 
 .about-right-side {
-	flex-basis: 900px;
+	/* justify-content: right; */
+	margin-left: 6rem;
 }
 
 .about-title {
@@ -34,13 +35,11 @@
 }
 
 .about-subtitle {
-	width: 80% !important;
 }
 
 .about-left-side {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 300px;
+	/* display: flex;
+	flex-direction: column; */
 }
 
 .about-image-container {
@@ -73,15 +72,15 @@
 	.about-logo {
 		z-index: 100;
 	}
-
+	
 	.about-main {
 		flex-direction: column;
 	}
-
+	
 	.about-subtitle {
 		padding-top: 20px !important;
 	}
-
+	
 	.about-left-side {
 		flex-basis: 100%;
 		order: 1;
