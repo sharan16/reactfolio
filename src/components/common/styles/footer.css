@@ -61,4 +61,8 @@
 	.footer-nav-link-list {
 		width: 100%;
 	}
+
+	.footer-credits{
+		margin:auto;
+	}
 }

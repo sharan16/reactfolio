@@ -18,7 +18,7 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	padding-top: 80px;
 }
 
 .about-main {
@@ -112,5 +112,14 @@
 
 	.about-image-container {
 		width: 80%;
+		margin: auto;
+	}
+	.about-image-wrapper {
+
+		transform: rotate(0deg);
+	}
+
+	.about-right-side {
+		margin-left: 0;
 	}
 }

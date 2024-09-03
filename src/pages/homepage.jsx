@@ -14,10 +14,9 @@ import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
+// import SEO from "../data/seo";
 
 import "./styles/homepage.css";
 import About from "./about";
@@ -56,7 +55,6 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
 
 	const logoStyle = {
 		display: "flex",
@@ -72,17 +70,13 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
+
 			</Helmet>
 
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-logo-container">
+					<div id="home" className="homepage-logo-container">
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
 						</div>
@@ -113,7 +107,7 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-socials">
+						{/* <div className="homepage-socials">
 							<a
 								href={INFO.socials.twitter}
 								target="_blank"
@@ -164,21 +158,25 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-						</div>
+						</div> */}
 {/* 
 						<div className="homepage-projects">
 							<AllProjects />
 						</div> */}
 
-						<div className="homepage-after-title">
+						<div id="work" className="homepage-works-container">
 							<div className="homepage-works">
 								<Works />
 							</div>
 						</div>
 
-						<About/>
+						<div id="about">
+							<About/>
+						</div>
 
-						<Contact/>
+						<div id="contact">
+							<Contact/>
+						</div>
 
 						<Footer/>
 

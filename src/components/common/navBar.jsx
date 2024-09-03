@@ -6,6 +6,20 @@ import "./styles/navBar.css";
 const NavBar = (props) => {
 	const { active } = props;
 
+	const scrollToSection = (sectionId) => {
+		const element = document.getElementById(sectionId);
+		if (element) {
+			const offset = 100; // Adjust this value as needed
+			const elementPosition = element.getBoundingClientRect().top;
+			const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+			window.scrollTo({
+				top: offsetPosition,
+				behavior: "smooth"
+			});
+		}
+	};
+
 	return (
 		<React.Fragment>
 			<div className="nav-container">
@@ -19,7 +33,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/">Home</Link>
+								<a onClick={() => scrollToSection("home")} style={{ cursor: 'pointer' }}>Home</a>
 							</li>
 							<li
 								className={
@@ -28,7 +42,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/work">Work</Link>
+								<a onClick={() => scrollToSection("work")} style={{ cursor: 'pointer' }}>Work</a>
 							</li>
 							<li
 								className={
@@ -36,8 +50,8 @@ const NavBar = (props) => {
 										? "nav-item active"
 										: "nav-item"
 								}
-							>
-								<Link to="/about">About</Link>
+								>
+								<a onClick={() => scrollToSection("about")} style={{ cursor: 'pointer' }}>About</a>
 							</li>
 							<li
 								className={
@@ -45,8 +59,8 @@ const NavBar = (props) => {
 										? "nav-item active"
 										: "nav-item"
 								}
-							>
-								<Link to="/contact">Contact</Link>
+								>
+								<a onClick={() => scrollToSection("contact")} style={{ cursor: 'pointer' }}>Contact</a>
 							</li>
 						</ul>
 					</div>
