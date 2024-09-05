@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "I’ve always been a tech enthusiast.",
 		description:
-			"My entire life, I've been fascinated by technology. My interestes spans fromx the leaps in technology over the past decade ,including AI, space exploration, and cryptocurrency, to the inner workings of computers and how they can be programmed.",
+			"My entire life, I've been fascinated by technology. My interests spans from the leaps in technology over the past decade ,including AI, space exploration, and cryptocurrency, to the inner workings of computers and how they can be programmed.",
 	},
 	workExperiences: [
 		{
