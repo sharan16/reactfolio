@@ -15,9 +15,6 @@ const Contact = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{`Contact | ${INFO.main.title}`}</title>
-			</Helmet>
 
 			<div className="page-content">
 					<div className="contact-container">
