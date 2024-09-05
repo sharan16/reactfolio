@@ -1,38 +1,72 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Portfolio",
+		name: "Shan Somas",
+		email: "sharan.somaskanthan@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/sharan16",
+		linkedin: "https://linkedin.com/in/shan-somas",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Welcome to my website!",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hi, I'm Shan Somas. I'm a software developer currently working at Datadog in NYC🗽. I studied Computer Engineering at the University of Waterloo 🧑‍🎓 while completing multiple internships at various companies.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’ve always been a tech enthusiast.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"My entire life, I've been fascinated by technology. My interestes spans fromx the leaps in technology over the past decade ,including AI, space exploration, and cryptocurrency, to the inner workings of computers and how they can be programmed.",
 	},
-
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
-
+	workExperiences: [
+		{
+			company: "Datadog",
+			logo: "./datadog-logo.png", // Update with the correct logo path
+			position: "Software Engineer",
+			duration: "Sep 2021 - Present",
+			responsibilities: [
+				"Building distributed storage systems for metric ingest and indexing",
+			],
+		},
+		{
+			company: "Salesforce",
+			logo: "./salesforce-logo.png", // Update with the correct logo path
+			position: "Software Engineer Intern, Infrastructure",
+			duration: "Sep 2021 - Present",
+			responsibilities: [
+				"Working on Edge computing initiatives utilizing Hibernate, Liquibase, and the Spring framework",
+			],
+		},
+		{
+			company: "Autodesk",
+			logo: "./autodesk-logo.png", // Update with the correct logo path
+			position: "Software Engineer Intern, Back-end",
+			duration: "Sep 2020 - Dec 2020",
+			responsibilities: [
+				"Developed a TypeScript-based cloud integration SDK for Fusion 360, improving data storage and translation between applications",
+				"Optimized graph querying and cloud synchronization algorithms, increasing query performance by 30% and overall test coverage by 20%",
+			],
+		},
+		{
+			company: "StackAdapt",
+			logo: "./stackadapt-logo.png", // Update with the correct logo path
+			position: "Software Engineer Intern, Full-stack",
+			duration: "Jan 2020 - Apr 2020",
+			responsibilities: [
+				"Built full-stack features using Rails, ReactJS, and Go, including custom KPI alerts and automated billing systems",
+				"Improved platform functionality and implemented account transaction infrastructure, increasing revenue by 1.2% and test coverage by 10%",
+			],
+		},
+		// Add more work experiences here
+	],
 	projects: [
 		{
 			title: "Project 1",

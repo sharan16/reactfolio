@@ -4,45 +4,9 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 import "./styles/works.css";
+import INFO from "../../data/user";
 
 const Works = () => {
-	const workExperiences = [
-		{
-			company: "Datadog",
-			logo: "./twitter.png",
-			position: "Software Engineer",
-			duration: "2019 - Present",
-			responsibilities: [
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-				"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-			],
-		},
-		{
-			company: "Datadog",
-			logo: "./twitter.png",
-			position: "Software Engineer",
-			duration: "2019 - Present",
-			responsibilities: [
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-				"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-			],
-		},
-		{
-			company: "Datadog",
-			logo: "./twitter.png",
-			position: "Software Engineer",
-			duration: "2019 - Present",
-			responsibilities: [
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-				"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-			],
-		},
-		// Add more work experiences here
-	];
-
 	return (
 		<div className="works">
 			<Card
@@ -50,7 +14,7 @@ const Works = () => {
 				title="Work"
 				body={
 					<div className="works-body">
-						{workExperiences.map((work, index) => (
+						{INFO.workExperiences.map((work, index) => (
 							<div className="work" key={index}>
 								<img
 									src={work.logo}
