@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.fac03349.css",
-    "main.js": "/static/js/main.a5926dfd.js",
-    "index.html": "/index.html",
-    "main.fac03349.css.map": "/static/css/main.fac03349.css.map",
-    "main.a5926dfd.js.map": "/static/js/main.a5926dfd.js.map"
+    "main.css": "/reactfolio/static/css/main.fac03349.css",
+    "main.js": "/reactfolio/static/js/main.a5926dfd.js",
+    "index.html": "/reactfolio/index.html",
+    "main.fac03349.css.map": "/reactfolio/static/css/main.fac03349.css.map",
+    "main.a5926dfd.js.map": "/reactfolio/static/js/main.a5926dfd.js.map"
   },
   "entrypoints": [
     "static/css/main.fac03349.css",
