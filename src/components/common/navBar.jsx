@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
 
@@ -26,41 +25,17 @@ const NavBar = (props) => {
 				<nav className="navbar">
 					<div className="nav-background">
 						<ul className="nav-list">
-							<li
-								className={
-									active === "home"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<a onClick={() => scrollToSection("home")} style={{ cursor: 'pointer' }}>Home</a>
+							<li className={active === "home" ? "nav-item active" : "nav-item"}>
+								<a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection("home"); }} className="nav-link">Home</a>
 							</li>
-							<li
-								className={
-									active === "work"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<a onClick={() => scrollToSection("work")} style={{ cursor: 'pointer' }}>Work</a>
+							<li className={active === "work" ? "nav-item active" : "nav-item"}>
+								<a href="#work" onClick={(e) => { e.preventDefault(); scrollToSection("work"); }} className="nav-link">Work</a>
 							</li>
-							<li
-								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-								>
-								<a onClick={() => scrollToSection("about")} style={{ cursor: 'pointer' }}>About</a>
+							<li className={active === "about" ? "nav-item active" : "nav-item"}>
+								<a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection("about"); }} className="nav-link">About</a>
 							</li>
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-								>
-								<a onClick={() => scrollToSection("contact")} style={{ cursor: 'pointer' }}>Contact</a>
+							<li className={active === "contact" ? "nav-item active" : "nav-item"}>
+								<a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection("contact"); }} className="nav-link">Contact</a>
 							</li>
 						</ul>
 					</div>
