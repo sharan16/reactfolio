@@ -14,9 +14,11 @@ test('renders homepage content', () => {
   );
   
   // Look for content that actually exists in your App component
-  const titleElement = screen.getByText(/Welcome to my website!/i);
+  const titleElement = screen.getByText(/Welcome!/i);
   expect(titleElement).toBeInTheDocument();
 
-  const subtitleElement = screen.getByText(/Hi, I'm Shan Somas/i);
+  const subtitleElement = screen.getByText(/Hello, I'm Shan Somas/i);
   expect(subtitleElement).toBeInTheDocument();
+
+  // You can add more assertions here to test for other elements
 });
