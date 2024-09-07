@@ -18,18 +18,12 @@ const Contact = () => {
 			<div className="page-content">
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Connect with Me
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
+							I'm always open to new opportunities, collaborations, and interesting conversations. Whether you have a question, a proposal, or just want to say hello, I'd love to hear from you. The best way to reach me is via email at:
+							<a href={`mailto:${INFO.main.email}`}> {INFO.main.email}</a>
 						</div>
 					</div>
 

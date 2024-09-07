@@ -16,19 +16,19 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Welcome to my website!",
+		title: "Welcome!",
 		description:
-			"Hi, I'm Shan Somas. I'm a software developer currently working at Datadog in NYC🗽. I studied Computer Engineering at the University of Waterloo 🧑‍🎓 while completing multiple internships at various companies.",
+			"Hello, I'm Shan Somas, a software developer at Datadog in NYC 🗽. With a Computer Engineering degree from the University of Waterloo and valuable experience from internships at Salesforce, Autodesk, and StackAdapt, I now specialize in building scalable distributed storage systems. My expertise spans full-stack development, cloud technologies, and data optimization. In my free time, I explore AI and machine learning through personal projects, constantly expanding my skill set. I'm passionate about solving complex technical challenges and driving innovation in the software industry.",
 	},
 
 	about: {
-		title: "I’ve always been a tech enthusiast.",
+		title: "A Lifelong Tech Enthusiast",
 		description:
-			"My entire life, I've been fascinated by technology. My interests spans from the leaps in technology over the past decade ,including AI, space exploration, and cryptocurrency, to the inner workings of computers and how they can be programmed.",
+		  "My fascination with technology started before I could even reach the keyboard. From those early days to now, I've been on an exciting journey through the digital world. I'm passionate about the incredible leaps in tech we've seen, from AI and space exploration to cryptocurrency. Whether it's understanding the intricate workings of computers or exploring the latest innovations, I'm always eager to learn and push the boundaries of what's possible.",
 	},
 	workExperiences: [
 		{
-			company: "Datadog",
+			company: "Datadog | New York City, NY",
 			logo: "./datadog-logo.png", // Update with the correct logo path
 			position: "Software Engineer",
 			duration: "Sep 2021 - Present",
@@ -37,7 +37,7 @@ const INFO = {
 			],
 		},
 		{
-			company: "Salesforce",
+			company: "Salesforce | San Fransico, CA",
 			logo: "./salesforce-logo.png", // Update with the correct logo path
 			position: "Software Engineer Intern, Infrastructure",
 			duration: "Sep 2021 - Present",
@@ -46,7 +46,7 @@ const INFO = {
 			],
 		},
 		{
-			company: "Autodesk",
+			company: "Autodesk | San Rafael, CA",
 			logo: "./autodesk-logo.png", // Update with the correct logo path
 			position: "Software Engineer Intern, Back-end",
 			duration: "Sep 2020 - Dec 2020",
@@ -56,7 +56,7 @@ const INFO = {
 			],
 		},
 		{
-			company: "StackAdapt",
+			company: "StackAdapt | Toronto, ON",
 			logo: "./stackadapt-logo.png", // Update with the correct logo path
 			position: "Software Engineer Intern, Full-stack",
 			duration: "Jan 2020 - Apr 2020",

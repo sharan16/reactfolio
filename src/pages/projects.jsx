@@ -18,9 +18,6 @@ const Projects = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
-			</Helmet>
 
 			<div className="page-content">
 				<NavBar active="projects" />
