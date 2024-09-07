@@ -23,7 +23,7 @@ const Contact = () => {
 
 						<div className="subtitle contact-subtitle">
 							I'm always open to new opportunities, collaborations, and interesting conversations. Whether you have a question, a proposal, or just want to say hello, I'd love to hear from you. The best way to reach me is via email at:
-							<a href={`mailto:${INFO.main.email}`}> {INFO.main.email}</a>
+							<a href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>
 						</div>
 					</div>
 
